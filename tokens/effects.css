@@ -1,0 +1,11 @@
+:root{
+/* hard offset "sticker" shadows — never blurred */
+--shadow-hard-sm:3px 3px 0 var(--zd-black);
+--shadow-hard:5px 5px 0 var(--zd-black);
+--shadow-hard-lg:8px 8px 0 var(--zd-black);
+--shadow-pressed:1px 1px 0 var(--zd-black);
+--ease-snap:cubic-bezier(.3,1.6,.5,1); /* @kind other */
+--ease-out:cubic-bezier(.2,.8,.2,1); /* @kind other */
+--dur-fast:120ms; /* @kind other */
+--dur-base:200ms; /* @kind other */
+}

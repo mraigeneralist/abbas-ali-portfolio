@@ -1,0 +1,13 @@
+:root{
+--font-display:"Montserrat","Arial Black",sans-serif;
+--font-body:"Nunito","Helvetica Neue",Arial,sans-serif;
+--font-ui:"Montserrat",Arial,sans-serif;
+--weight-black:900;--weight-extrabold:800;--weight-bold:700;--weight-semibold:600;--weight-regular:400;
+--text-mega:clamp(64px,9vw,128px);   /* DON'T BE UNPREPARED */
+--text-h1:clamp(40px,5vw,64px);      /* Survival Kits */
+--text-h2:36px;--text-h3:24px;--text-h4:18px;
+--text-lg:18px;--text-md:16px;--text-sm:14px;--text-xs:12px;
+--text-button:16px;--text-nav:15px;
+--leading-mega:0.92;--leading-tight:1.1;--leading-body:1.7;--leading-note:1.6;
+--tracking-mega:-0.01em;--tracking-button:0.02em;
+}

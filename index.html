@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abbas Ali — Full-Stack Web Developer in Hyderabad</title>
+<meta name="description" content="Abbas Ali is a full-stack web developer in Hyderabad building fast, accessible React and Node.js products: analytics dashboards, storefronts and real-time apps.">
+<meta name="author" content="Abbas Ali">
+<meta name="theme-color" content="#BFDF6F">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="og-image.png">
+<link rel="canonical" href="https://abbasali.dev/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Abbas Ali — Full-Stack Web Developer">
+<meta property="og:description" content="Fast, accessible web products that stay alive long after launch day. React, Node.js, TypeScript, PostgreSQL.">
+<meta property="og:url" content="https://abbasali.dev/">
+<meta property="og:image" content="https://abbasali.dev/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script>try{if(!sessionStorage.getItem('aa-intro'))document.documentElement.classList.add('show-loader')}catch(e){}</script>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="anims.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Abbas Ali","jobTitle":"Full-Stack Web Developer","address":{"@type":"PostalAddress","addressLocality":"Hyderabad","addressCountry":"IN"},"url":"https://abbasali.dev/","email":"mailto:hello@abbasali.dev"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="loader" id="loader" aria-hidden="true"><div class="ld-name" id="ldName"></div><div class="ld-bar"><i id="ldBar"></i></div><div class="ld-pct"><span id="ldPct">0</span>% · loading portfolio</div></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <nav class="nav-in" aria-label="Primary">
+    <a class="logo" href="#top" aria-label="Abbas Ali, back to top"><i>AA</i>abbas.ali</a>
+    <ul class="nav-links" id="navLinks"></ul>
+    <a class="btn sm nav-cta" href="#contact">Hire me</a>
+    <button class="burger" id="burger" aria-expanded="false" aria-controls="mmenu" aria-label="Open menu"><span></span></button>
+  </nav>
+</header>
+<div class="mmenu" id="mmenu" aria-label="Mobile"><ul id="mmLinks"></ul></div>
+
+<main id="main">
+  <section class="hero b-lime" id="top" data-screen-label="Hero" aria-labelledby="heroName">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow rv">Hello, I’m</span>
+        <h1 class="mega rv" style="--d:1;margin-top:18px" id="heroName"></h1>
+        <p class="typed rv" style="--d:2"><span class="sr" id="titleSr"></span><span aria-hidden="true" id="typed"></span><span class="caret" aria-hidden="true"></span></p>
+        <p class="value rv" style="--d:3" id="heroValue"></p>
+        <div class="cta-row rv" style="--d:4">
+          <a class="btn" href="#projects">View projects <span class="arr">→</span></a>
+          <a class="btn white" href="#" id="resumeBtn">Download resume</a>
+          <a class="btn yellow" href="#contact">Contact</a>
+        </div>
+        <p class="perk rv" style="--d:5" id="heroPerk"></p>
+      </div>
+      <div class="mon rv pop" style="--d:2" id="mon">
+        <img class="peek" src="assets/illustrations/zombie-left.png" alt="">
+        <span class="float tag" style="left:-4%;top:6%;--t:5s;--rot:-4deg">&lt;div&gt;</span>
+        <span class="float tag" style="right:-3%;top:-4%;--t:6s;--dl:-2s;background:var(--zd-yellow);--rot:5deg">200 OK</span>
+        <span class="float tag" style="right:-5%;top:52%;--t:4.5s;--dl:-1s;background:var(--zd-pink)">npm run ship</span>
+        <span class="float tag" style="left:8%;bottom:14%;--t:5.5s;--dl:-3s;background:var(--zd-teal);--rot:-3deg">{ react }</span>
+        <div class="mon-frame">
+          <div class="screen" id="screen" role="region" aria-label="Portfolio preview. Hover to pause, choose a section to jump to it.">
+            <div class="sc-bar"><div class="sc-dots" aria-hidden="true"><i style="background:var(--zd-pink)"></i><i style="background:var(--zd-yellow)"></i><i style="background:var(--zd-teal)"></i></div><div class="sc-url" id="scUrl">abbasali.dev</div><span class="sc-state" id="scState">Live</span></div>
+            <div class="sc-tabs" id="scTabs"></div>
+            <div class="sc-prog" aria-hidden="true"><i id="scProg"></i></div>
+            <div class="sc-view"><div class="sc-track" id="scTrack"></div><div class="sc-scroll" aria-hidden="true"><div class="sc-thumb" id="scThumb"></div></div></div>
+            <span class="sc-cur" id="scCur" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="mon-neck"></div><div class="mon-base"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="edge" style="--from:var(--zd-lime);--to:var(--zd-black)"></div>
+  <div class="ribbon" aria-hidden="true"><div class="rb-track" id="ribbon"></div></div>
+
+  <section class="band b-black" id="about" data-screen-label="About" aria-labelledby="aboutH">
+    <div class="wrap">
+      <div class="about-grid">
+        <div>
+          <span class="eyebrow rv">About</span>
+          <h2 class="h-sec" id="aboutH">Built to outlast the launch</h2>
+          <div class="about-copy" id="aboutCopy"></div>
+          <div class="work rv"><h3>How I work</h3><ul id="workList"></ul></div>
+        </div>
+        <div class="portrait rv r" style="--d:2"><img src="me.jpg" alt="Portrait of Abbas"><div class="avail"><i class="dot"></i><span id="availTxt"></span></div></div>
+      </div>
+      <div class="stats" id="stats"></div>
+    </div>
+  </section>
+
+  <div class="edge rev" style="--from:var(--zd-black);--to:var(--zd-teal)"></div>
+  <section class="band b-teal" id="skills" data-screen-label="Skills" aria-labelledby="skillsH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Skills</span><h2 class="h-sec" id="skillsH">Twelve skills, with receipts</h2><p class="lede rv">Every skill shows what it does, how long I’ve done it, and where I used it. Open one for the details.</p></div></div>
+      <div class="chips" id="skillFilter" role="group" aria-label="Filter skills by group"></div>
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+  </section>
+
+  <div class="edge" style="--from:var(--zd-teal);--to:var(--zd-yellow)"></div>
+  <section class="band b-yellow" id="projects" data-screen-label="Projects" aria-labelledby="projH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Projects</span><h2 class="h-sec" id="projH">Things I shipped</h2><p class="lede rv">Six products, from a college weather app to an enterprise analytics platform. Hover for the quick version, open for the full story.</p></div></div>
+      <div class="filter-row"><span>Category</span><div class="chips" id="catFilter" role="group" aria-label="Filter projects by category"></div></div>
+      <div class="filter-row"><span>Tech</span><div class="chips" id="techFilter" role="group" aria-label="Filter projects by technology"></div></div>
+      <p class="sr" aria-live="polite" id="projLive"></p>
+      <div class="proj-grid" id="projGrid"></div>
+    </div>
+  </section>
+
+  <div class="edge rev" style="--from:var(--zd-yellow);--to:var(--zd-lime)"></div>
+  <section class="band b-lime" id="journey" data-screen-label="Experience" aria-labelledby="journeyH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Journey</span><h2 class="h-sec" id="journeyH">Where I’ve been building</h2></div></div>
+      <div class="tl-block" id="experience"><h3 class="tl-title rv">Experience <span class="chip">Full-time</span></h3><div class="tl" id="tlExp"></div></div>
+      <div class="tl-block" id="internships"><h3 class="tl-title rv">Internships <span class="chip">Hands-on</span></h3><div class="tl" id="tlInt"></div></div>
+      <div class="tl-block" id="education"><h3 class="tl-title rv">Education <span class="chip">Foundations</span></h3><div class="tl" id="tlEdu"></div></div>
+    </div>
+  </section>
+
+  <div class="edge" style="--from:var(--zd-lime);--to:var(--zd-black)"></div>
+  <section class="band b-black" id="certifications" data-screen-label="Certifications" aria-labelledby="certH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Certifications</span><h2 class="h-sec" id="certH">Paperwork, verified</h2><p class="lede rv">Hover or tap a badge to flip it for the credential.</p></div></div>
+      <div class="certs" id="certs"></div>
+    </div>
+  </section>
+
+  <div class="edge rev" style="--from:var(--zd-black);--to:var(--zd-teal)"></div>
+  <section class="band b-teal" id="awards" data-screen-label="Awards" aria-labelledby="awardsH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Achievements</span><h2 class="h-sec" id="awardsH">Hackathons, awards and open source</h2></div></div>
+      <div class="awards" id="awardsGrid"></div>
+    </div>
+  </section>
+
+  <div class="edge" style="--from:var(--zd-teal);--to:var(--zd-yellow)"></div>
+  <section class="band b-yellow" id="testimonials" data-screen-label="Testimonials" aria-labelledby="quotesH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Testimonials</span><h2 class="h-sec" id="quotesH">Kind words</h2></div></div>
+      <div class="quotes" id="quotes"></div>
+    </div>
+  </section>
+
+  <div class="edge rev" style="--from:var(--zd-yellow);--to:var(--zd-lime)"></div>
+  <section class="band b-lime" id="hobbies" data-screen-label="Hobbies" aria-labelledby="hobH">
+    <div class="wrap">
+      <div class="sec-head"><div><span class="eyebrow rv">Off the clock</span><h2 class="h-sec" id="hobH">Hobbies &amp; interests</h2></div></div>
+      <div class="hobbies" id="hobbyGrid"></div>
+    </div>
+  </section>
+
+  <div class="edge" style="--from:var(--zd-lime);--to:var(--zd-black)"></div>
+  <section class="band b-black contact" id="contact" data-screen-label="Contact" aria-labelledby="contactH">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow rv">Contact</span>
+        <h2 class="mega rv" style="--d:1;margin-top:18px" id="contactH">Let’s<br>talk</h2>
+        <p class="lede rv" style="--d:2">Hiring, freelance, or just want to argue about state management. I reply within 24 hours.</p>
+        <ul class="info" id="info"></ul>
+        <div class="socials" id="socials"></div>
+      </div>
+      <form class="card form rv r" id="form" novalidate aria-labelledby="formH">
+        <div class="fields">
+          <h3 id="formH" class="sr">Send a message</h3>
+          <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" aria-describedby="e-name" placeholder="Your name"><span class="err" id="e-name" aria-live="polite"></span></div>
+          <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" aria-describedby="e-email" placeholder="you@company.com"><span class="err" id="e-email" aria-live="polite"></span></div>
+          <div class="field"><label for="f-msg">Message <small id="f-count">0 / 600</small></label><textarea id="f-msg" name="message" maxlength="600" aria-describedby="e-msg" placeholder="What are you building?"></textarea><span class="err" id="e-msg" aria-live="polite"></span></div>
+          <button class="btn" type="submit" id="sendBtn">Send message <span class="arr">→</span></button>
+        </div>
+        <div class="ok" role="status" tabindex="-1" id="okPanel"><div class="ok-badge" aria-hidden="true">✓</div><h3>Message sent</h3><p id="okTxt">Thanks! I’ll reply within 24 hours.</p><button class="btn white sm" type="button" id="againBtn">Send another</button></div>
+      </form>
+    </div>
+    <img class="hand" id="hand" src="assets/illustrations/zombie-hand.png" alt="">
+  </section>
+  <div class="edge rev" style="--from:var(--zd-black);--to:var(--zd-teal)"></div>
+</main>
+
+<footer class="foot b-teal">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><h2>Abbas<br>Ali</h2><p>Full-stack web developer in Hyderabad. Building web products that refuse to die.</p></div>
+      <nav aria-label="Footer"><h3>Quick links</h3><div class="foot-links" id="footLinks"></div></nav>
+      <div><h3>Elsewhere</h3><div class="socials" id="footSocials"></div></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 Abbas Ali. Hand-built, no templates harmed.</span><a class="btn white sm" href="#top">Back to top ↑</a></div>
+  </div>
+</footer>
+
+<dialog class="pm" id="pm" aria-labelledby="pmTitle"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="anims.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+:root{
+/* base palette — sampled from the Zombify homepage */
+--zd-lime:#BFDF6F;--zd-lime-dark:#9CC24A;
+--zd-pink:#E16A87;--zd-pink-dark:#C84D6C;
+--zd-teal:#56BD9F;--zd-teal-dark:#3E9E82;
+--zd-yellow:#FEC001;--zd-yellow-dark:#E0A800;
+--zd-cream:#FFFF93;
+--zd-flesh:#9ED08A;--zd-flesh-dark:#6FAF5B;
+--zd-stone:#B8D0D3;
+--zd-black:#000000;--zd-ink:#0B0B0B;
+--zd-white:#FFFFFF;
+--zd-gray-100:#F2F2EC;--zd-gray-300:#C9C9C0;--zd-gray-500:#8A8A82;--zd-gray-700:#4A4A45;
+/* semantic */
+--surface-page:var(--zd-lime);
+--surface-dark:var(--zd-black);
+--surface-teal:var(--zd-teal);
+--surface-yellow:var(--zd-yellow);
+--surface-card:var(--zd-white);
+--text-strong:var(--zd-black);
+--text-body:#2A2A2A;
+--text-muted:#4A4A45;
+--text-on-dark:var(--zd-white);
+--text-on-dark-muted:#BDBDB5;
+--action-primary:var(--zd-pink);
+--action-primary-hover:#EA7F98;
+--action-secondary:var(--zd-teal);
+--action-secondary-hover:#6ACBAE;
+--border-strong:var(--zd-black);
+--focus-ring:var(--zd-yellow);
+--status-success:var(--zd-teal);
+--status-warning:var(--zd-yellow);
+--status-danger:var(--zd-pink);
+--status-info:var(--zd-stone);
+}
