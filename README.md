@@ -35,9 +35,19 @@ python -m http.server 8000
 # then open http://localhost:8000
 ```
 
+## Live
+
+**https://abbas-ali-portfolio.vercel.app**
+
 ## Deploying
 
-Deployed on Vercel as a static site. Pushes to `main` deploy automatically.
+Deployed on Vercel as a static site, linked to this repo — pushes to `main` deploy automatically.
+
+### Using a custom domain
+
+`index.html` (canonical, `og:url`, `og:image`, JSON-LD `url`), `robots.txt` and `sitemap.xml`
+currently point at the `.vercel.app` URL. If you add a custom domain such as `abbasali.dev`,
+add it in the Vercel project settings and replace that URL in those three files.
 
 ## Note on the contact form
 

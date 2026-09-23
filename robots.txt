@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://abbasali.dev/sitemap.xml
+Sitemap: https://abbas-ali-portfolio.vercel.app/sitemap.xml
